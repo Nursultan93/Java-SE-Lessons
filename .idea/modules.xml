@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java-SE-Lessons.iml" filepath="$PROJECT_DIR$/Java-SE-Lessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L1-Java-Variables-DataTypes-Operators/L1-Java-Variables-DataTypes-Operators.iml" filepath="$PROJECT_DIR$/L1-Java-Variables-DataTypes-Operators/L1-Java-Variables-DataTypes-Operators.iml" />
     </modules>
   </component>
 </project>
