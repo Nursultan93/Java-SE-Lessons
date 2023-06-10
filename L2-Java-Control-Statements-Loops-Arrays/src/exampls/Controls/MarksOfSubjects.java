@@ -1,4 +1,4 @@
-package Controls;
+package exampls.Controls;
 
 import java.util.Scanner;
 

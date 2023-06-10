@@ -1,4 +1,4 @@
-package Controls;
+package exampls.Controls;
 
 import java.util.Scanner;
 
@@ -28,7 +28,7 @@ public class SalaryRange {
         int salary =0;
 
 
-        if (gender == "Male"){
+        if (gender.equals("Male")){
             if (year >= 10){
                 if (qualification == "Post Graduate"){
                     salary = 15000;
@@ -43,7 +43,7 @@ public class SalaryRange {
                 }
             }
         }
-        if (gender == "Female"){
+        if (gender.equals("Female")){
             if (year >= 10){
                 if (qualification == "Post Graduate"){
                     salary = 12000;
