@@ -13,29 +13,29 @@ public class GreatestNumber {
         int thirdNum = sc.nextInt();
 
          //commente aldigin kodu sorus //
-//        if (firstNum > secondNum || firstNum > thirdNum){ //false || false
-//            System.out.println("The greatest number is: " + firstNum);
-//        }
-//
-//        if (secondNum > firstNum ||secondNum > thirdNum){
-//            System.out.println("The greatest number is: " + secondNum);
-//        }
-//
-//        if (thirdNum > firstNum || thirdNum > secondNum)
-//            System.out.println("The greatest number is: " + thirdNum);
+        if (firstNum > secondNum && firstNum > thirdNum){ //false || false
+            System.out.println("The greatest number is: " + firstNum);
+        }
 
-//        if (firstNum > secondNum){
-//            if (firstNum > thirdNum){
-//                System.out.println("The greatest number is: " + firstNum);
-//            }
-//        }if (secondNum > firstNum){
-//            if (secondNum > thirdNum){
-//                System.out.println("The greatest number is: " + secondNum);
-//            }
-//        }if (thirdNum > firstNum){
-//            if (thirdNum > secondNum){
-//                System.out.println("The greatest number is: " + thirdNum);
-//            }
-//        }
+        if (secondNum > firstNum && secondNum > thirdNum){
+            System.out.println("The greatest number is: " + secondNum);
+        }
+
+        if (thirdNum > firstNum && thirdNum > secondNum)
+            System.out.println("The greatest number is: " + thirdNum);
+
+        if (firstNum > secondNum){
+            if (firstNum > thirdNum){
+                System.out.println("The greatest number is: " + firstNum);
+            }
+        }if (secondNum > firstNum){
+            if (secondNum > thirdNum){
+                System.out.println("The greatest number is: " + secondNum);
+            }
+        }if (thirdNum > firstNum){
+            if (thirdNum > secondNum){
+                System.out.println("The greatest number is: " + thirdNum);
+            }
+        }
     }
 }

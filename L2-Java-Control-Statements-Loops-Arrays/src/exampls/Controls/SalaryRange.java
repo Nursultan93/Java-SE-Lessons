@@ -30,30 +30,30 @@ public class SalaryRange {
 
         if (gender.equals("Male")){
             if (year >= 10){
-                if (qualification == "Post Graduate"){
+                if (qualification.equals("Post Graduate")){
                     salary = 15000;
-                }if (qualification == "Graduate"){
+                }if (qualification.equals("Graduate")){
                     salary = 10000;
                 }
             }if(year <10){
-                if (qualification == "Post Graduate"){
+                if (qualification.equals("Post Graduate")){
                     salary = 8000;
-                }if (qualification == "Graduate") {
+                }if (qualification.equals("Graduate")) {
                     salary = 7000;
                 }
             }
         }
         if (gender.equals("Female")){
             if (year >= 10){
-                if (qualification == "Post Graduate"){
+                if (qualification.equals("Post Graduate")){
                     salary = 12000;
-                }if (qualification == "Graduate"){
+                }if (qualification.equals("Graduate")){
                     salary = 9000;
                 }
             }if (year <10){
-                if (qualification == "Post Graduate"){
+                if (qualification.equals("Post Graduate")){
                     salary = 6000;
-                }if (qualification == "Graduate") {
+                }if (qualification.equals("Graduate")) {
                     salary = 5000;
                 }
             }
