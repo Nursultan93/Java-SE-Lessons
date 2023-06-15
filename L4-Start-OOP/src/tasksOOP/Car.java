@@ -5,14 +5,15 @@ public class Car extends Vehicle{
 
 
     public Car(){
-
+        model = "BMW";
     }
 
-    public void accelerate(){
-        speed = speed + 20;
+    public void accelerate(int speed){
+        this.speed = speed + 20;
     }
 
     public int displaySpeed(){
         return speed;
     }
+
 }
