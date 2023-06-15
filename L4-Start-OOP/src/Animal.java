@@ -18,7 +18,7 @@ public class Animal {
     System.out.println("Animal is sleeping");
   }
 
-  protected void walk() {
+   void walk() {
     System.out.println("Animal is walking");
   }
 
