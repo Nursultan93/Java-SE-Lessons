@@ -15,6 +15,8 @@ public class Main {
 //    c.catchedMouse("Mestan", 3);
 //    c.catchedMouse(5, "Mestan");
 //    c.catchedMouse("Mestan", 3, 4);
+//    c.catchedMouse(2, "Mestan", 4);
+
 
 
     // is a
