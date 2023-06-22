@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/L4-Start-OOP/L4-Start-OOP.iml" filepath="$PROJECT_DIR$/L4-Start-OOP/L4-Start-OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/L5-Java-Inhertance/L5-Java-Inhertance.iml" filepath="$PROJECT_DIR$/L5-Java-Inhertance/L5-Java-Inhertance.iml" />
       <module fileurl="file://$PROJECT_DIR$/L6-Java-AbstractClass-Interface/L6-Java-AbstractClass-Interface.iml" filepath="$PROJECT_DIR$/L6-Java-AbstractClass-Interface/L6-Java-AbstractClass-Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L7-Java-Collections/L7-Java-Collections.iml" filepath="$PROJECT_DIR$/L7-Java-Collections/L7-Java-Collections.iml" />
     </modules>
   </component>
 </project>
