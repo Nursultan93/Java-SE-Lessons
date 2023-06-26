@@ -4,16 +4,16 @@ public class Warrior extends GameCharacter implements Attackable{
     private int strength;
     private String weapon;
 
-    public Warrior(int strength, String weapon) {
-        this.strength = strength;
-        this.weapon = weapon;
-    }
-
-//    public Warrior(String name, int health, int strength, String weapon) {
-//        super(name, health);
+//    public Warrior(int strength, String weapon) {
 //        this.strength = strength;
 //        this.weapon = weapon;
 //    }
+
+    public Warrior(String name, int health, int strength, String weapon) {
+        super(name, health);
+        this.strength = strength;
+        this.weapon = weapon;
+    }
 
     public int getStrength() {
         return strength;

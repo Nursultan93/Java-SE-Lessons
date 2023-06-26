@@ -6,29 +6,43 @@ import java.util.List;
 public class Game {
     public static void main(String[] args) {
 
-        Warrior warrior = new Warrior(10, "Gladius");
-        Mage mage = new Mage(15, "Run");
+        Warrior warrior = new Warrior("Salam", 90, 10, "Gladius");
+        Mage mage = new Mage("Faiq", 60, 15, "Run");
+        Shooter shooter = new Shooter();
 
-        List<Attackable> array = new ArrayList<>();
+        List<GameCharacter> array = new ArrayList<>();
 
         array.add(warrior);
         array.add(mage);
+        array.add(shooter);
+
+        addCharacter(warrior);
+        addCharacter(mage);
+        removeCharacter(warrior);
+
+        displayCharacters(array);
 
     }
-    public void addCharacter(GameCharacter character){
-        System.out.println("Game character" + character);
+    public static void addCharacter(GameCharacter character){
+        System.out.println("addCharacter");
+        System.out.println(character.getName() +" added");
     }
 
-    public void removeCharacter(GameCharacter character){
-        System.out.println("Removed" + character);
+    public static void removeCharacter(GameCharacter character){
+        System.out.println("removeCharacter");
+        System.out.println("Removed " + character.getName());
     }
 
-    public void displayCharacters(){
-
+    public static void displayCharacters(List<GameCharacter> list){
+        for (GameCharacter a : list){
+            System.out.println(a.getName());
+        }
     }
 
-    public void attackCharacter(GameCharacter attacker, GameCharacter target){
-
+    public static void attackCharacter(GameCharacter attacker, GameCharacter target){
+        System.out.println("attackCharacter");
+        System.out.println(attacker.getName() + " attacked");
+        System.out.println(target.getName() + " attacked");
     }
 
 
