@@ -2,5 +2,5 @@ package tasks;
 
 public interface Attackable {
 
-    void attack();
+    void attack(GameCharacter target);
 }

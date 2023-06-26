@@ -14,21 +14,21 @@ public class Game {
         array.add(warrior);
         array.add(mage);
 
-//        public void addCharacter(){
-//
-//        }
-//
-//        public void removeCharacter(){
-//
-//        }
-//
-//        public void displayCharacters(){
-//
-//        }
-//
-//        public void attackCharacter(){
-//
-//        }
+    }
+    public void addCharacter(GameCharacter character){
+        System.out.println("Game character" + character);
+    }
+
+    public void removeCharacter(GameCharacter character){
+        System.out.println("Removed" + character);
+    }
+
+    public void displayCharacters(){
+
+    }
+
+    public void attackCharacter(GameCharacter attacker, GameCharacter target){
+
     }
 
 

@@ -9,7 +9,7 @@ public class Mage extends GameCharacter implements Attackable{
         this.spell = spell;
     }
 
-//    public Mage(String name, int health, String intelligence, String spell) {
+//    public Mage(String name, int health, int intelligence, String spell) {
 //        super(name, health);
 //        this.intelligence = intelligence;
 //        this.spell = spell;
@@ -31,8 +31,9 @@ public class Mage extends GameCharacter implements Attackable{
         this.spell = spell;
     }
 
+
     @Override
-    public void attack() {
+    public void attack(GameCharacter target) {
 
     }
 }

@@ -9,7 +9,7 @@ public class Warrior extends GameCharacter implements Attackable{
         this.weapon = weapon;
     }
 
-//    public Warrior(String name, int health, String strength, String weapon) {
+//    public Warrior(String name, int health, int strength, String weapon) {
 //        super(name, health);
 //        this.strength = strength;
 //        this.weapon = weapon;
@@ -31,8 +31,9 @@ public class Warrior extends GameCharacter implements Attackable{
         this.weapon = weapon;
     }
 
+
     @Override
-    public void attack() {
+    public void attack(GameCharacter target) {
 
     }
 }
