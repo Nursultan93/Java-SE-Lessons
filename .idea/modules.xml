@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/L6-Java-AbstractClass-Interface/L6-Java-AbstractClass-Interface.iml" filepath="$PROJECT_DIR$/L6-Java-AbstractClass-Interface/L6-Java-AbstractClass-Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/L7-Java-Collections/L7-Java-Collections.iml" filepath="$PROJECT_DIR$/L7-Java-Collections/L7-Java-Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/L8-Java-Exceptions/L8-Java-Exceptions.iml" filepath="$PROJECT_DIR$/L8-Java-Exceptions/L8-Java-Exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L9-Java-Generics/L9-Java-Generics.iml" filepath="$PROJECT_DIR$/L9-Java-Generics/L9-Java-Generics.iml" />
     </modules>
   </component>
 </project>
