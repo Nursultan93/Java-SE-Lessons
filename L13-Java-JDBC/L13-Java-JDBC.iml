@@ -12,4 +12,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="mysql-connector" level="project" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="7a004dd8-83b3-4587-872c-fcd9695bdce0" />
+  </component>
 </module>
